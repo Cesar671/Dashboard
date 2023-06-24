@@ -129,6 +129,15 @@ const Sidebar:React.FC = () => {
               selected={ selected }
               setSelected={ setSelected }
             />
+            <Typography
+              variant='h6'
+              color={ colors.grey[300] }
+              sx={{ 
+                m:"15px 0 5px 20px",
+               }}
+            >
+              Data
+            </Typography>
             <Item 
               title='Manage Team'
               to="/team"
@@ -144,12 +153,21 @@ const Sidebar:React.FC = () => {
               setSelected={ setSelected }
             />
             <Item 
-              title='Invoice'
+              title='Invoice Balances'
               to="/invoices"
               icon= { <ReceiptOutlined /> }
               selected={ selected }
               setSelected={ setSelected }
             />
+            <Typography
+              variant='h6'
+              color={ colors.grey[300] }
+              sx={{ 
+                m:"15px 0 5px 20px",
+               }}
+            >
+              Pages
+            </Typography>
             <Item 
               title='Profile form'
               to="/form"
@@ -171,6 +189,15 @@ const Sidebar:React.FC = () => {
               selected={ selected }
               setSelected={ setSelected }
             />
+            <Typography
+              variant='h6'
+              color={ colors.grey[300] }
+              sx={{ 
+                m:"15px 0 5px 20px",
+               }}
+            >
+              Charts
+            </Typography>
             <Item 
               title='Bar Chart'
               to="/bar"
