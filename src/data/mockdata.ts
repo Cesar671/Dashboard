@@ -73,6 +73,14 @@ export const mockDataTeam = [
     phone: "(444)555-6239",
     access: "admin",
   },
+  {
+    id: 10,
+    name: "Jhilmer Ñucra",
+    email: "jhilmer@gmail.com",
+    age: 27,
+    phone: "66666666",
+    access: "admin",
+  },
 ];
 
 export const mockDataContacts = [
